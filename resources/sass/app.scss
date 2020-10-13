@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700');
+
+// Variables
+@import 'variables';
+$fa-font-path:        "../webfonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+// Admin-Lte
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~admin-lte/plugins/select2/css/select2.min.css';
+@import '~admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.min.css';
+@import '~admin-lte/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css';
+@import '~admin-lte/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css';
+@import '~admin-lte/plugins/daterangepicker/daterangepicker.css';
+
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";

@@ -40,6 +40,7 @@
                                     <th>Tên Thể Loại</th>
                                     <th>Hình Ảnh</th>
                                     <th>Slug</th>
+                                    <th>Bài Hướng Dẫn</th>
                                     <th></th>
                                 </tr>
                                 </thead>
@@ -57,6 +58,9 @@
                                         {{--                                        <td style="">{!! $item->short_description !!}  </td>--}}
                                         {{--                                        <td>{{ $item->mo_ta2 }}</td>--}}
                                         <td>{{$item->slug}}</td>
+                                        <td><input type="checkbox" id="hot" name="is_guide" class="form-control"
+                                                   {{$item->is_guide ? 'checked' : ''}} disabled>
+                                        </td>
                                         <td>
                                             <div class="row">
                                                 <a href="{{ route('blog-category.edit',$item->id)}}"
@@ -64,7 +68,8 @@
                                                     <i class="fa fa-edit"></i>
                                                 </a>
 
-                                                <form action="{{ route('blog-category.destroy', $item->id)}}" method="post">
+                                                <form action="{{ route('blog-category.destroy', $item->id)}}"
+                                                      method="post">
                                                     @csrf
                                                     @method('DELETE')
                                                     <button

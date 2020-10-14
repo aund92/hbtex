@@ -6,6 +6,7 @@ namespace App\Http\Controllers\User;
 use App\Consts\Consts;
 use App\Models\Banner;
 use App\Models\Blog;
+use App\Models\BlogCategory;
 use App\Models\Category;
 use App\Models\Event;
 use App\Models\OrderItem;
@@ -66,7 +67,9 @@ class HomeController extends Controller
         return view('user-site.home.about');
     }
     public function guide(){
-        return view('user-site.home.huongdan');
+        return view('user-site.home.huongdan', [
+            'blogCategories' => BlogCategory::where('is_guide', true)->get()
+        ]);
     }
 
 

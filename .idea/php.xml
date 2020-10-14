@@ -2,7 +2,6 @@
 <project version="4">
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/unisharp/laravel-filemanager" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
@@ -16,14 +15,12 @@
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
-      <path value="$PROJECT_DIR$/vendor/intervention/image" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
@@ -120,7 +117,9 @@
       <path value="$PROJECT_DIR$/vendor/aws/aws-sdk-php" />
       <path value="$PROJECT_DIR$/vendor/brick/math" />
       <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
-      <path value="$PROJECT_DIR$/vendor/laravel/helpers" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

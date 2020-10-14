@@ -45,9 +45,13 @@
 
                         <div class="date-time">
                             <p><i class="fa fa-clock-o"></i><span
-                                    class="text-black">Thời gian: </span>{{date('d/m/Y', strtotime($event->start_date))}}
+                                    class="text-black">Thời gian: </span>
                                 @if($event->type ==0)
+                                    {{date('d/m/Y', strtotime($event->start_date))}}
+
                                     - {{date('d/m/Y', strtotime($event->end_date))}}
+                                @else
+                                    {{date('d/m/Y', strtotime($event->created_at))}}
                                 @endif
                             </p>
                         </div>

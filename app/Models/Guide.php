@@ -6,9 +6,8 @@ use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class BlogCategory extends Model
+class Guide extends Model
 {
-    use SoftDeletes;
     use Sluggable;
 
     /**
@@ -16,20 +15,16 @@ class BlogCategory extends Model
      *
      * @var string
      */
-    protected $table = 'blog_category';
+    protected $table = 'guide';
 
-    protected $fillable = ['id', 'category_name', 'image', 'description', 'slug', 'is_guide'];
+    protected $fillable = ['image', 'title', 'short_description', 'description', 'slug', 'type'];
 
-
-    public function blogs() {
-        return $this->hasMany('App\Models\Blog', 'category_id', 'id');
-    }
 
     public function sluggable()
     {
         return [
             'slug' => [
-                'source' => 'category_name'
+                'source' => 'title'
             ]
         ];
     }

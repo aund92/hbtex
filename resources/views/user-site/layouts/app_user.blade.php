@@ -288,8 +288,10 @@
         </div>
         <div class="container-fluid bg-black text-algin-center">
             <ul class="about">
-                <li><a href="{{route('user.about')}}" target="_blank"><h4>Giới thiệu</h4></a></li>
-                <li><a href="https://isc1.vn/" target="_blank"><h4>Về chúng tôi</h4></a></li>
+{{--                <li><a href="{{route('user.about')}}" target="_blank"><h4>Giới thiệu</h4></a></li>--}}
+                <li><a href="{{route('user.event.detail', 'gioi-thieu')}}" target="_blank"><h4>Giới thiệu</h4></a></li>
+                <li><a href="{{route('user.event.detail', 've-chung-toi')}}" target="_blank"><h4>Về Chúng Tôi</h4></a></li>
+{{--                <li><a href="https://isc1.vn/" target="_blank"><h4>Về chúng tôi</h4></a></li>--}}
                 <li><a href="{{route('user.guide')}}" target="_blank"><h4>Hướng dẫn</h4></a></li>
                 <li><a href="{{route('user.event.detail', 'quy-che-hoat-dong-cua-san-thuong-mai-dien-tu-hatex-vn')}}" target="_blank"><h4>Quy chế quản lý hoạt động</h4></a></li>
                 <li><a href="{{route('user.event.detail', 'chinh-sach-bao-ve-thong-tin-tren-hatex-vn')}}" target="_blank"><h4>Chính sách bảo vệ thông tin</h4></a></li>

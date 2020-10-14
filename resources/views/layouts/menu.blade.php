@@ -149,7 +149,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item has-treeview @if(in_array($index, [\App\Consts\Consts::SIDEBAR_DISCOUNT,\App\Consts\Consts::SIDEBAR_PRODUCT, \App\Consts\Consts::SIDEBAR_CATEGORY, \App\Consts\Consts::SIDEBAR_BRAND,  \App\Consts\Consts::SIDEBAR_CUSTOMER, \App\Consts\Consts::SIDEBAR_BLOG, \App\Consts\Consts::SIDEBAR_SKU, \App\Consts\Consts::SIDEBAR_SIZE, \App\Consts\Consts::SIDEBAR_COUNTRY, \App\Consts\Consts::SIDEBAR_SUPLLY])) menu-open @endif">
+                <li class="nav-item has-treeview @if(in_array($index, [\App\Consts\Consts::SIDEBAR_DISCOUNT,\App\Consts\Consts::SIDEBAR_PRODUCT, \App\Consts\Consts::SIDEBAR_CATEGORY, \App\Consts\Consts::SIDEBAR_BRAND,  \App\Consts\Consts::SIDEBAR_CUSTOMER, \App\Consts\Consts::SIDEBAR_BLOG, \App\Consts\Consts::SIDEBAR_SKU, \App\Consts\Consts::SIDEBAR_SIZE, \App\Consts\Consts::SIDEBAR_COUNTRY, \App\Consts\Consts::SIDEBAR_SUPLLY, \App\Consts\Consts::SIDEBAR_BLOG_CATEGORY, \App\Consts\Consts::SIDEBAR_EVENT])) menu-open @endif">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-list"></i>
                         <p>

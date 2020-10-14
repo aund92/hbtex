@@ -62,6 +62,7 @@ class BlogCategoryController extends Controller
         $data = [
             'category_name' => $request->get('category_name'),
             'description' => $request->get('description'),
+            'is_guide' => is_null($request->get('is_guide')) ? false : true,
             'image' => $imagePath,
             'slug' => SlugService::createSlug(BlogCategory::class, 'slug', $request->get('category_name'))
         ];
@@ -130,6 +131,7 @@ class BlogCategoryController extends Controller
         $data = [
             'category_name' => $request->get('category_name'),
             'description' => $request->get('description'),
+            'is_guide' => is_null($request->get('is_guide')) ? false : true,
             'image' => $imagePath,
             'slug' => SlugService::createSlug(BlogCategory::class, 'slug', $request->get('category_name'))
         ];

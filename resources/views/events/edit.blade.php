@@ -81,8 +81,8 @@
                                     </div>
                                 </div>
                                 <select class="form-control" id="type" name="type">
-                                    <option value="0" @if(old('type', $item->type) == '0') @endif >Sự Kiện</option>
-                                    <option value="1" @if(old('type', $item->type) == '1') @endif >Thông Báo</option>
+                                    <option value="0" @if(old('type', $item->type) == '0') selected @endif >Sự Kiện</option>
+                                    <option value="1" @if(old('type', $item->type) == '1') selected  @endif >Thông Báo</option>
                                     {{--                                        <option value="manager" @if(old('role') == 'manager') @endif>Manager</option>--}}
                                 </select>
                                 <div class="form-group">

@@ -47,6 +47,14 @@
                                            value="{{old('category_name', $item->category_name)}}"
                                            placeholder="Enter Category Name">
                                 </div>
+                                <div class="form-group">
+                                    <div class="icheck-primary d-inline">
+                                        <input type="checkbox" id="pin" name="is_guide"  {{$item->is_guide ? 'checked' : ''}}>
+                                        <label for="pin">
+                                            Bài Hướng dẫn
+                                        </label>
+                                    </div>
+                                </div>
 
                                 <div class="form-group">
                                     <label for="exampleInputFile">Image</label>

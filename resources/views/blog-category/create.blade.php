@@ -46,7 +46,14 @@
                                            value="{{old('category_name')}}"
                                            placeholder="Nhập Tên Thể Loại">
                                 </div>
-
+                                <div class="form-group">
+                                    <div class="icheck-primary d-inline">
+                                        <input type="checkbox" id="pin" name="is_guide">
+                                        <label for="pin">
+                                            Bài Hướng dẫn
+                                        </label>
+                                    </div>
+                                </div>
                                 <div class="form-group">
                                     <label for="exampleInputFile">Image</label>
                                     <div class="input-group">

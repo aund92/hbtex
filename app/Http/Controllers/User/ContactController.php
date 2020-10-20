@@ -40,7 +40,7 @@ class ContactController extends Controller
             ->take(9);
 
         return view('user-site.contact.index', [
-            'categories2' => $categories
+            'categories' => $categories
         ]);
     }
 

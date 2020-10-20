@@ -21,6 +21,7 @@ Route::get('/', function () {
 Route::namespace('User')->group(function () {
     // Home
     Route::get('/', 'HomeController@index')->name('user.home.index');
+    Route::get('/danh-muc', 'HomeController@categories')->name('user.categories.index');
     // Product
     Route::get('/product/{id?}', 'ProductController@index')->name('user.product.index');
     Route::post('/product/review', 'ProductController@review')->name('user.product.review')->middleware('verified');

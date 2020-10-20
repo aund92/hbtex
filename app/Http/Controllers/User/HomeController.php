@@ -67,8 +67,30 @@ class HomeController extends Controller
         return view('user-site.home.about');
     }
     public function guide(){
+        $categoires = Category::select('*')
+            ->whereNull('parent_id')
+            ->orderBy('order')
+            ->get()
+            ->take(9);
         return view('user-site.home.huongdan', [
+            'categories' => $categoires,
             'blogCategories' => BlogCategory::where('is_guide', true)->get()
+        ]);
+    }
+
+    public function categories() {
+        $categoires = Category::select('*')
+            ->whereNull('parent_id')
+            ->orderBy('order')
+            ->get()
+            ->take(9);
+        $categoiresAll = Category::select('*')
+            ->whereNull('parent_id')
+            ->orderBy('order')
+            ->get();
+        return view('user-site.home.danhmuc', [
+            'categories' => $categoires,
+            'categoriesAll' => $categoiresAll
         ]);
     }
 

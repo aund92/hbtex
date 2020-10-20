@@ -27,7 +27,7 @@
                                 @endforeach
 
                                 <li>
-                                    <a href="danh-muc.html" target="_blank"><strong>Tất cả danh mục</strong><i
+                                    <a href="{{route('user.categories.index')}}" target="_blank"><strong>Tất cả danh mục</strong><i
                                             class="fa fa-plus" aria-hidden="true"></i></a>
                                 </li>
                             </ul>

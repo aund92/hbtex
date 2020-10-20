@@ -71,10 +71,10 @@
                     <ul>
                     </ul>
                     <ul>
-                        <li><span>Choose language: </span> <a href="javascript:void(0);"> <i class="flag-icon flag-icon-vi"></i>Vietnamese<i class="lnr lnr-chevron-down"></i></a>
+                        <li><span>Chọn ngôn ngữ: </span> <a href="javascript:void(0);"> <i class="flag-icon flag-icon-vi"></i>Vietnamese<i class="lnr lnr-chevron-down"></i></a>
                             <!-- Dropdown Start -->
                             <ul class="ht-dropdown">
-                                <li><a href="#">Vietnamese</a></li>
+                                <li><a href="#">Tiếng Việt</a></li>
 {{--                                <li><a href="index.html">English</a></li>--}}
                             </ul>
                             <!-- Dropdown End -->
@@ -229,7 +229,7 @@
                             @endif
 
                             <li class="all-field">
-                                <a href="danh-muc.html"><strong>Tất cả danh mục</strong></a>
+                                <a href="{{route('user.categories.index')}}"><strong>Tất cả danh mục</strong></a>
                             </li>
                         </ul>
                     </div>
@@ -266,11 +266,11 @@
                     <div class="row mt-30">
                         <div class="col-md-7 col-sm-7 col-xs-12">
                             <div class="coppyright">
-                                <p><strong>Đơn vị vận hành: Trung tâm Phát triển khoa học - công nghệ và Đổi mới sáng tạo</strong></p>
-                                <p class="news-name">Cơ quan quản lý: Sở Khoa học và Công nghệ Hải Phòng.</p>
-                                <p class="MsoNormal">Quyết định thành lập: 1025/QĐ-UBND ngày 20/4/2020, nơi cấp: UBND TP. Hải Phòng.</p>
-                                <p class="MsoNormal">Trụ sở: Số 01 Phạm Ngũ Lão - Quận Ngô Quyền - Thành Phố Hải Phòng.</p>
-                                <p class="MsoNormal">Điện thoại: 0225.3757.101 &amp; 0225.3250.289 || Fax: 0225.3757.110 || Email: thongtin@hatex.vn</p>
+{{--                                <p><strong>Đơn vị vận hành: Trung tâm Phát triển khoa học - công nghệ và Đổi mới sáng tạo</strong></p>--}}
+{{--                                <p class="news-name">Cơ quan quản lý: Sở Khoa học và Công nghệ Hải Phòng.</p>--}}
+{{--                                <p class="MsoNormal">Quyết định thành lập: 1025/QĐ-UBND ngày 20/4/2020, nơi cấp: UBND TP. Hải Phòng.</p>--}}
+{{--                                <p class="MsoNormal">Trụ sở: Số 01 Phạm Ngũ Lão - Quận Ngô Quyền - Thành Phố Hải Phòng.</p>--}}
+{{--                                <p class="MsoNormal">Điện thoại: 0225.3757.101 &amp; 0225.3250.289 || Fax: 0225.3757.110 || Email: thongtin@hatex.vn</p>--}}
                             </div>
                         </div>
                         <div class="col-md-5 col-sm-5 col-xs-12 right-contact-us">

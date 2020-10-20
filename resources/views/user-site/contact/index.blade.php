@@ -1,6 +1,7 @@
 @extends('user-site.layouts.app_user')
 
 @section('content')
+    @include('user-site.layouts.vertical-menu')
     <!-- Breadcrumb Start -->
     <div class="breadcrumb-area mt-30">
         <div class="container">

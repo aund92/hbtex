@@ -42,27 +42,27 @@
                         <div id="slider" class="nivoSlider">
                             <a class="banner" data-id="788" href="chao-ban/danh-sach.html"><img
                                     src="upload/images/Banner_QC/slide-chao-ban.jpg"
-                                    data-thumb="https://hatex.vn/upload/images/Banner_QC/slide-chao-ban.jpg"
+                                    data-thumb="https://hbtex.vn/upload/images/Banner_QC/slide-chao-ban.jpg"
                                     alt="Slide 2 - Chào bán" title="#htmlcaption"/></a>
                             <a class="banner" data-id="748" href="index.html"><img
                                     src="upload/images/Banner_QC/QC1-vi.jpg"
-                                    data-thumb="https://hatex.vn/upload/images/Banner_QC/QC1-vi.jpg" alt="Slide 4"
+                                    data-thumb="https://hbtex.vn/upload/images/Banner_QC/QC1-vi.jpg" alt="Slide 4"
                                     title="#htmlcaption"/></a>
                             <a class="banner" data-id="44" href="index.html"><img
                                     src="upload/images/Banner_QC/QC2-vi.jpg"
-                                    data-thumb="https://hatex.vn/upload/images/Banner_QC/QC2-vi.jpg"
+                                    data-thumb="https://hbtex.vn/upload/images/Banner_QC/QC2-vi.jpg"
                                     alt="Slide 5 - Đăng ký" title="#htmlcaption"/></a>
                             <a class="banner" data-id="694" href="index.html"><img
                                     src="upload/images/Banner_QC/SLIDE-5-vi.jpg"
-                                    data-thumb="https://hatex.vn/upload/images/Banner_QC/SLIDE-5-vi.jpg"
+                                    data-thumb="https://hbtex.vn/upload/images/Banner_QC/SLIDE-5-vi.jpg"
                                     alt="Slide 3 - Chuyên gia" title="#htmlcaption"/></a>
                             <a class="banner" data-id="787" href="tin-tuc/danh-sach.html"><img
                                     src="upload/images/Banner_QC/SLIDE-4-vi.jpg"
-                                    data-thumb="https://hatex.vn/upload/images/Banner_QC/SLIDE-4-vi.jpg"
+                                    data-thumb="https://hbtex.vn/upload/images/Banner_QC/SLIDE-4-vi.jpg"
                                     alt="Slide 1 - Tin tức" title="#htmlcaption"/></a>
                             <a class="banner" data-id="897" href="https://connect5.vn/"><img
                                     src="public/upload/files/Banner%202020/banner-ket-noi.jpg"
-                                    data-thumb="https://hatex.vn/public/upload/files/Banner%202020/banner-ket-noi.jpg"
+                                    data-thumb="https://hbtex.vn/public/upload/files/Banner%202020/banner-ket-noi.jpg"
                                     alt="Connect5" title="#htmlcaption"/></a>
                         </div>
                     </div>
@@ -176,11 +176,11 @@
                                                 <div class="single-product single-booth template">
                                                     <div class="pro-img">
                                                         <div class="gold-tags">GOLD</div>
-                                                        <a href="https://hatex.vn/gian-hang/cong-ty-tnhh-wintech-viet-nam-2308.html"
+                                                        <a href="https://hbtex.vn/gian-hang/cong-ty-tnhh-wintech-viet-nam-2308.html"
                                                            target="_blank">
                                                             <img class="primary-img boot-image"
                                                                  src="{{asset($supply->image)}}"
-                                                                 data-src="https://hatex.vn/upload/images/Logo_NCC/logo_wintech.png"
+                                                                 data-src="https://hbtex.vn/upload/images/Logo_NCC/logo_wintech.png"
                                                                  alt="{{$supply->supply_name}}">
                                                         </a>
                                                     </div>
@@ -212,11 +212,11 @@
                                                 <div class="single-product single-booth template">
                                                     <div class="pro-img">
                                                         <div class="gold-tags">GOLD</div>
-                                                        <a href="https://hatex.vn/gian-hang/cong-ty-tnhh-wintech-viet-nam-2308.html"
+                                                        <a href="https://hbtex.vn/gian-hang/cong-ty-tnhh-wintech-viet-nam-2308.html"
                                                            target="_blank">
                                                             <img class="primary-img boot-image"
                                                                  src="{{asset($supply->image)}}"
-                                                                 data-src="https://hatex.vn/upload/images/Logo_NCC/logo_wintech.png"
+                                                                 data-src="https://hbtex.vn/upload/images/Logo_NCC/logo_wintech.png"
                                                                  alt="{{$supply->supply_name}}">
                                                         </a>
                                                     </div>
@@ -248,11 +248,11 @@
                                                 <div class="single-product single-booth template">
                                                     <div class="pro-img">
                                                         <div class="gold-tags">GOLD</div>
-                                                        <a href="https://hatex.vn/gian-hang/cong-ty-tnhh-wintech-viet-nam-2308.html"
+                                                        <a href="https://hbtex.vn/gian-hang/cong-ty-tnhh-wintech-viet-nam-2308.html"
                                                            target="_blank">
                                                             <img class="primary-img boot-image"
                                                                  src="{{asset($supply->image)}}"
-                                                                 data-src="https://hatex.vn/upload/images/Logo_NCC/logo_wintech.png"
+                                                                 data-src="https://hbtex.vn/upload/images/Logo_NCC/logo_wintech.png"
                                                                  alt="{{$supply->supply_name}}">
                                                         </a>
                                                     </div>

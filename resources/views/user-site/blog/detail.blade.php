@@ -62,13 +62,13 @@
                         </div>
 {{--                        <div id="fb-root">--}}
 {{--                            <div class="fb-like"--}}
-{{--                                 data-href="https://hatex.vn/tin-tuc/ap-dung-phuong-phap-san-xuat-tinh-gon-trong-doanh-nghiep-theo-tps.html"--}}
+{{--                                 data-href="https://hbtex.vn/tin-tuc/ap-dung-phuong-phap-san-xuat-tinh-gon-trong-doanh-nghiep-theo-tps.html"--}}
 {{--                                 data-layout="button_count" data-action="like" data-size="small" data-show-faces="true"--}}
 {{--                                 data-share="true"></div>--}}
 {{--                        </div>--}}
 {{--                        <div id="fb-root1">--}}
 {{--                            <div class="fb-comments"--}}
-{{--                                 data-href="https://hatex.vn/tin-tuc/ap-dung-phuong-phap-san-xuat-tinh-gon-trong-doanh-nghiep-theo-tps.html"--}}
+{{--                                 data-href="https://hbtex.vn/tin-tuc/ap-dung-phuong-phap-san-xuat-tinh-gon-trong-doanh-nghiep-theo-tps.html"--}}
 {{--                                 data-numposts="5" data-width="100%"></div>--}}
 {{--                        </div>--}}
 {{--                        <div class="viewed-news">--}}

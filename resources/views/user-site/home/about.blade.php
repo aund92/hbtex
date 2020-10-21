@@ -5,13 +5,13 @@
 <!-- Mirrored from demo.spellbit.com/html/softbay/preview/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Aug 2018 08:57:24 GMT -->
 
 
-<!-- Mirrored from hatex.vn/gioi-thieu.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2020 04:32:39 GMT -->
+<!-- Mirrored from hbtex.vn/gioi-thieu.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2020 04:32:39 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hatex.vn</title>
+    <title>hbtex.vn</title>
 
     <!-- ==================Start Css Link===================== -->
     <!-- font awesome icon -->
@@ -79,7 +79,7 @@ site header start
             <div class="row">
                 <div class="col-lg-12">
                     <div class="img-logo">
-                        <a href="#!" class="navbar-brand"><img src="https://hatex.vn/assets/frontend/about_us/assets/images/logo/logo-hatex-white.png" alt=""></a>
+                        <a href="#!" class="navbar-brand"><img src="https://hbtex.vn/assets/frontend/about_us/assets/images/logo/logo-hatex-white.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -129,9 +129,9 @@ banner area start
         <div class="row bn-height align-items-center">
             <div class="col-lg-11">
                 <div class="banner-content">
-                    <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">Sàn giao dịch công nghệ và thiết bị trực tuyến Hatex.vn</h2>
+                    <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">Sàn giao dịch công nghệ và thiết bị trực tuyến hbtex.vn</h2>
                     <div class="animation" data-animation="fadeInDown" data-animation-delay="0.6s">
-                        <p>Chính thức hoạt động từ năm 2012, Hatex.vn là sàn thương mại điện tử chuyên về công nghệ và thiết bị hàng đầu tại Việt Nam, thu hút sự tham gia của rất nhiều tổ chức, đơn vị, doanh nghiệp và các cá nhân trong và ngoài nước.</p>
+                        <p>Chính thức hoạt động từ năm 2012, hbtex.vn là sàn thương mại điện tử chuyên về công nghệ và thiết bị hàng đầu tại Việt Nam, thu hút sự tham gia của rất nhiều tổ chức, đơn vị, doanh nghiệp và các cá nhân trong và ngoài nước.</p>
                         <a href="#" class="btn-mr th-primary2 pill">Tìm hiểu thêm</a>
                         <a href="https://www.youtube.com/watch?v=CNUbfTVUti8" class="th-circle video-pop"><i class="icofont icofont-ui-play"></i></a>
                     </div>
@@ -159,7 +159,7 @@ About us section start
                         Hỗ trợ các hoạt động mua, bán, chuyển giao công nghệ- thiết bị một cách nhanh chóng, hiệu quả, góp phần thúc đẩy thị trường công nghệ tại Việt Nam.
                     </p>
                     <p>
-                        Bằng cách đồng hành cùng các nhà cung cấp là các tổ chức, đơn vị, doanh nghiệp quảng bá sản phẩm, công nghệ; Tìm kiếm và kết nối trực tiếp với người mua thông qua các tiện ích và chức năng trên Hatex.vn.
+                        Bằng cách đồng hành cùng các nhà cung cấp là các tổ chức, đơn vị, doanh nghiệp quảng bá sản phẩm, công nghệ; Tìm kiếm và kết nối trực tiếp với người mua thông qua các tiện ích và chức năng trên hbtex.vn.
                     </p>
                 </div>
             </div>
@@ -263,10 +263,10 @@ About us section start
                 <div class="col-lg-5 sec-titile-wrapper">
                     <h2 class="section-title">Không chỉ trong nước, mà còn là quốc tế</h2>
                     <p>
-                        Phiên bản tiếng Việt là phiên bản chính nhằm phục vụ cho các tổ chức, đơn vị, doanh nghiệp trong nước, Năm 2018, Hatex.vn phát triển thêm phiên bản tiếng Anh, giúp cho doanh nghiệp trong nước tìm kiếm, mở rộng cơ hội hợp tác với nước ngoài, đồng thời hỗ trợ doanh nghiệp nước ngoài giới thiệu, chào bán công nghệ tiên tiến vào Việt Nam.
+                        Phiên bản tiếng Việt là phiên bản chính nhằm phục vụ cho các tổ chức, đơn vị, doanh nghiệp trong nước, Năm 2018, hbtex.vn phát triển thêm phiên bản tiếng Anh, giúp cho doanh nghiệp trong nước tìm kiếm, mở rộng cơ hội hợp tác với nước ngoài, đồng thời hỗ trợ doanh nghiệp nước ngoài giới thiệu, chào bán công nghệ tiên tiến vào Việt Nam.
                     </p>
                     <p>
-                        Ngoài ra, khách hàng có thể tham gia Hatex.vn mọi lúc, mọi nơi, với nhiều ngôn ngữ dịch tự động được tích hợp và thao tác trên mọi thiết bị di động.
+                        Ngoài ra, khách hàng có thể tham gia hbtex.vn mọi lúc, mọi nơi, với nhiều ngôn ngữ dịch tự động được tích hợp và thao tác trên mọi thiết bị di động.
                     </p>
                 </div>
             </div>
@@ -277,8 +277,8 @@ About us section start
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2 sec-titile-wrapper text-center">
-                <h2 class="section-title">Thành viên trên Hatex.vn</h2>
-                <p>Đăng ký là thành viên trên Hatex.vn để tiếp cận người mua ngay lập tức</p>
+                <h2 class="section-title">Thành viên trên hbtex.vn</h2>
+                <p>Đăng ký là thành viên trên hbtex.vn để tiếp cận người mua ngay lập tức</p>
             </div>
             <!-- end section-titile -->
             <div class="col-lg-4 offset-lg-2 col-sm-6 col-xs-12 no-padding">
@@ -339,12 +339,12 @@ About us section start
                         <div class="col-lg-9 col-sm-9 col-9 position">
                             <p>Ông <span class="fw-700">Trần Anh Tuấn</span>: Phụ trách Kinh doanh</p>
                             <p><span class="fw-700">Công ty TNHH SX TM DV KT Đại Hồng Phát</span></p>
-                            <p>Thành viên vàng Hatex.vn từ năm 2013</p>
+                            <p>Thành viên vàng hbtex.vn từ năm 2013</p>
                         </div>
                         <div class="text-customer">
                             <p>
                                 <i>
-                                    Tham gia hatex.vn từ những ngày đầu, đến nay chúng tôi đã tham gia là thành viên vàng được 5 năm, Hatex.vn giúp Đại Hồng Phát tiếp cận được với rất nhiều khách hàng từ các kênh online và offline, khách hàng trong nước và nước ngoài. Đặc biệt chúng tôi được Hatex hỗ trợ tham gia triển lãm tại nhiều sự kiện về công nghệ thiết bị.
+                                    Tham gia hbtex.vn từ những ngày đầu, đến nay chúng tôi đã tham gia là thành viên vàng được 5 năm, hbtex.vn giúp Đại Hồng Phát tiếp cận được với rất nhiều khách hàng từ các kênh online và offline, khách hàng trong nước và nước ngoài. Đặc biệt chúng tôi được Hatex hỗ trợ tham gia triển lãm tại nhiều sự kiện về công nghệ thiết bị.
                                 </i>
                             </p>
                         </div>
@@ -358,12 +358,12 @@ About us section start
                         <div class="col-lg-9 col-sm-9 col-9 position">
                             <p>Ông <span class="fw-700">Trần Anh Tuấn</span>: Phụ trách Kinh doanh</p>
                             <p><span class="fw-700">Công ty TNHH SX TM DV KT Đại Hồng Phát</span></p>
-                            <p>Thành viên vàng Hatex.vn từ năm 2013</p>
+                            <p>Thành viên vàng hbtex.vn từ năm 2013</p>
                         </div>
                         <div class="text-customer">
                             <p>
                                 <i>
-                                    Tham gia hatex.vn từ những ngày đầu, đến nay chúng tôi đã tham gia là thành viên vàng được 5 năm, Hatex.vn giúp Đại Hồng Phát tiếp cận được với rất nhiều khách hàng từ các kênh online và offline, khách hàng trong nước và nước ngoài. Đặc biệt chúng tôi được Hatex hỗ trợ tham gia triển lãm tại nhiều sự kiện về công nghệ thiết bị.
+                                    Tham gia hbtex.vn từ những ngày đầu, đến nay chúng tôi đã tham gia là thành viên vàng được 5 năm, hbtex.vn giúp Đại Hồng Phát tiếp cận được với rất nhiều khách hàng từ các kênh online và offline, khách hàng trong nước và nước ngoài. Đặc biệt chúng tôi được Hatex hỗ trợ tham gia triển lãm tại nhiều sự kiện về công nghệ thiết bị.
                                 </i>
                             </p>
                         </div>
@@ -388,7 +388,7 @@ About us section start
                     <img class="img-services" src="assets/frontend/about_us/assets/images/all-img/bg-loi-ich.png" alt="">
                 </div>
                 <div class="col-lg-6 col-sm-6 col-12 sec-titile-wrapper-2">
-                    <h3 class="section-sub-title">Lợi ích của thành viên vàng trên Hatex.vn</h3>
+                    <h3 class="section-sub-title">Lợi ích của thành viên vàng trên hbtex.vn</h3>
                     <div class="panel-group">
                         <div class="panel panel-default">
                             <div class="panel-heading">
@@ -413,7 +413,7 @@ About us section start
                             <div id="collapse2" class="panel-collapse collapse">
                                 <div class="panel-content">
                                     <p>
-                                        Hoạt động 24/7 điều đó có nghĩa là sản phẩm, dịch vụ của doanh nghiệp đã có cơ hội được quảng bá liên tục 24 giờ trong ngày, 7 ngày trong tuần và trong suốt cả năm. Là thành viên vàng, sản phẩm của doanh nghiệp có cơ hội xuất hiện trên trang chủ của Hatex.vn và được ưu tiên hiển thị ở vị trí đầu trong kết quả tìm kiếm của người dùng. Điều này sẽ giúp doanh nghiệp thu hút được khách hàng tìm đến và gia tăng số lượng hỏi hàng chất lượng.
+                                        Hoạt động 24/7 điều đó có nghĩa là sản phẩm, dịch vụ của doanh nghiệp đã có cơ hội được quảng bá liên tục 24 giờ trong ngày, 7 ngày trong tuần và trong suốt cả năm. Là thành viên vàng, sản phẩm của doanh nghiệp có cơ hội xuất hiện trên trang chủ của hbtex.vn và được ưu tiên hiển thị ở vị trí đầu trong kết quả tìm kiếm của người dùng. Điều này sẽ giúp doanh nghiệp thu hút được khách hàng tìm đến và gia tăng số lượng hỏi hàng chất lượng.
                                     </p>
                                 </div>
                             </div>
@@ -427,10 +427,10 @@ About us section start
                             <div id="collapse3" class="panel-collapse collapse">
                                 <div class="panel-content">
                                     <p>
-                                        Có rất nhiều nhu cầu tìm mua thiết bị, công nghệ từ khách hàng trên hệ thống Hatex.vn được đăng tải, là thành viên vàng, doanh nghiệp sẽ có được quyền tiếp cận tất cả các nhu cầu mua mới được đăng tải và liên hệ ngay lập tức với khách hàng tìm mua này. Đây là một đặc điểm quan trọng giúp thành viên vàng có được lợi thế vượt qua đối thủ cạnh tranh.
+                                        Có rất nhiều nhu cầu tìm mua thiết bị, công nghệ từ khách hàng trên hệ thống hbtex.vn được đăng tải, là thành viên vàng, doanh nghiệp sẽ có được quyền tiếp cận tất cả các nhu cầu mua mới được đăng tải và liên hệ ngay lập tức với khách hàng tìm mua này. Đây là một đặc điểm quan trọng giúp thành viên vàng có được lợi thế vượt qua đối thủ cạnh tranh.
                                     </p>
                                     <p>
-                                        Hatex.vn tích hợp các công cụ trực tuyến giúp thành viên vàng liên hệ ngay với đối tác để chào hàng, gửi báo giá và đàm phán nhanh chóng mà lại tiết kiệm tối đa chi phí giao dịch.
+                                        hbtex.vn tích hợp các công cụ trực tuyến giúp thành viên vàng liên hệ ngay với đối tác để chào hàng, gửi báo giá và đàm phán nhanh chóng mà lại tiết kiệm tối đa chi phí giao dịch.
                                     </p>
                                 </div>
                             </div>
@@ -444,7 +444,7 @@ About us section start
                             <div id="collapse4" class="panel-collapse collapse">
                                 <div class="panel-content">
                                     <p>
-                                        Hatex.vn hỗ trợ quảng bá offline cho các thành viên Vàng bằng cách đăng tải, trưng bày thông tin giới thiệu thành viên cao cấp trên các ấn phẩm, tài liệu cung cấp cho khách hàng tại các hội chợ triển lãm và hội thảo mà Hatex tổ chức hoặc tham gia. Vui lòng xem thông tin các sự kiện sắp diễn ra <a href="http://sangiaodichcongnghe.com/" target="_blank">tại đây</a>.
+                                        hbtex.vn hỗ trợ quảng bá offline cho các thành viên Vàng bằng cách đăng tải, trưng bày thông tin giới thiệu thành viên cao cấp trên các ấn phẩm, tài liệu cung cấp cho khách hàng tại các hội chợ triển lãm và hội thảo mà Hatex tổ chức hoặc tham gia. Vui lòng xem thông tin các sự kiện sắp diễn ra <a href="http://sangiaodichcongnghe.com/" target="_blank">tại đây</a>.
                                     </p>
                                 </div>
                             </div>
@@ -472,7 +472,7 @@ About us section start
                             <div id="collapse6" class="panel-collapse collapse">
                                 <div class="panel-content">
                                     <p>
-                                        Đội ngũ hỗ trợ khách hàng của hatex.vn sẽ tư vấn và hướng dẫn thành viên vàng cách thức sử dụng hiệu quả nhất các tính năng thường xuyên thông qua công cụ trực tuyến hoặc đào tạo trực tiếp; Liên tục cập nhật và gửi các bản tin liên quan phục vụ hoạt động sản xuất- kinh doanh của doanh nghiệp.
+                                        Đội ngũ hỗ trợ khách hàng của hbtex.vn sẽ tư vấn và hướng dẫn thành viên vàng cách thức sử dụng hiệu quả nhất các tính năng thường xuyên thông qua công cụ trực tuyến hoặc đào tạo trực tiếp; Liên tục cập nhật và gửi các bản tin liên quan phục vụ hoạt động sản xuất- kinh doanh của doanh nghiệp.
                                     </p>
                                 </div>
                             </div>
@@ -492,7 +492,7 @@ About us section start
     <div class="align-items-center">
         <div class="subscribe-box text-center">
             <h3>Đăng ký sử dụng dịch vụ</h3>
-            <form method="post" id='frmRegis' data-form="ajax" action="https://hatex.vn/api/add_subscriber" class="susb-form">
+            <form method="post" id='frmRegis' data-form="ajax" action="https://hbtex.vn/api/add_subscriber" class="susb-form">
                 <div class="input-group mb-3">
                     <input class="subscribe form-control" placeholder="﻿Enter your email" name="email" id="subscribe" required type="text">
                     <div class="input-group-append">
@@ -556,8 +556,8 @@ footer start
                                         <span class="fw-700">Fax: </span>0225.3757110
                                     </span>
                         </li>
-                        <li><span><i class="icofont icofont-email"></i>&nbsp;&nbsp;<span class="fw-700">Email: </span><a href="index.html">thongtin@hatex.vn</a></span></li>
-                        <li><span><i class="icofont icofont-web"></i>&nbsp;&nbsp;<span class="fw-700">Website: </span><a href="index.html">Hatex.vn</a></span></li>
+                        <li><span><i class="icofont icofont-email"></i>&nbsp;&nbsp;<span class="fw-700">Email: </span><a href="index.html">thongtin@hbtex.vn</a></span></li>
+                        <li><span><i class="icofont icofont-web"></i>&nbsp;&nbsp;<span class="fw-700">Website: </span><a href="index.html">hbtex.vn</a></span></li>
                     </ul>
 
                 </div>
@@ -741,5 +741,5 @@ footer start
 <!-- Mirrored from demo.spellbit.com/html/softbay/preview/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Aug 2018 08:57:50 GMT -->
 
 
-<!-- Mirrored from hatex.vn/gioi-thieu.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2020 04:32:40 GMT -->
+<!-- Mirrored from hbtex.vn/gioi-thieu.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Oct 2020 04:32:40 GMT -->
 </html>

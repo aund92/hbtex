@@ -6,7 +6,7 @@ function mysqlDateToMyDate(input){return new Date(Date.parse(input)).toLocaleDat
 function backToRegister(){
     jQuery('#basic-modal-content').modal('hide');
     jQuery('#authenModal').modal('show');
-}   
+}
 function backToLogin(){
     jQuery('#authenTitle').text('Đăng nhập');
     jQuery('#frmRegister').toggle(false).fadeOut(200);
@@ -14,7 +14,7 @@ function backToLogin(){
     jQuery('#frmLostPass').toggle(false).fadeOut(200);
     jQuery('#frmLogin').toggle(true).fadeIn(200);
     jQuery('#authenFooter').toggle(true).fadeIn(200);
-}    
+}
 function lostPassShow(){
     jQuery('#authenTitle').text('Quên mật khẩu');
     jQuery('#authenFooter').toggle(false).fadeOut(200);
@@ -28,31 +28,31 @@ function lostPassShow(){
             response = JSON.parse(response);
             jQuery('#htmlCaptcha').html(response[0]);
             //jQuery('#htmlCaptcha input').remove();
-            //jQuery('#htmlCaptcha').append(response[0]); 
-            //jQuery('#htmlCaptcha img').attr('src',response[1]);            
+            //jQuery('#htmlCaptcha').append(response[0]);
+            //jQuery('#htmlCaptcha img').attr('src',response[1]);
         }
-    });    
-}   
+    });
+}
 function registerShow(){
     jQuery('#authenTitle').text('Đăng ký');
     jQuery('#authenFooter').toggle(false).fadeOut(200);
     jQuery('#frmRegister').toggle(true).fadeIn(200);
     jQuery('#frmLogin').toggle(false).fadeOut(200);
     jQuery('#frmRegister button[type="submit"]').removeClass('disabled');
-} 
+}
 function goToInbox(response){
     jQuery('#registeredEmail').text(jQuery('#EmailRegister').val());
     jQuery('#authenTitle').text('Đăng ký thành công');
-    jQuery('#goToInbox').attr('href','https://'+JSON.parse(response).linkToEmail);    
+    jQuery('#goToInbox').attr('href','https://'+JSON.parse(response).linkToEmail);
     jQuery('#authenFooter').toggle(false).fadeOut(200);
     jQuery('#frmRegister').toggle(false).fadeOut(200);
     jQuery('#frmRegistered').toggle(true).fadeIn(200);
     //Hệ thống đã gửi đến một email xác nhận vào hộp thư quangiahopan2@gmail.com
     //Vui lòng lòng xác nhận email để hoàn thành các bước đăng ký tiếp theo/
     //Đi tới hòm thư
-    
+
 }
-jQuery(function($){ 
+jQuery(function($){
     $('.single-item').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -70,8 +70,8 @@ jQuery(function($){
         jQuery(".navbar").removeClass("navbar-fixed-top");
      }
     });
-    
-    
+
+
     jQuery(window).focus(function() {
         if(jQuery('#frmRegistered').is(':visible'))
             jQuery('#backToLogin').animate({zoom: '120%'}, "fast");
@@ -98,7 +98,7 @@ jQuery(function($){
 //          radioClass: 'iradio_square-blue',
 //          increaseArea: '20%' // optional
 //    });
-    
+
     jQuery('#AcceptTerms').on('ifChanged',function acceptTermsChanged(){
         //console.log('Changed');
         if (this.checked) jQuery('#frmRegister button[type="submit"]').removeAttr('disabled');
@@ -114,16 +114,16 @@ jQuery(function($){
                 jQuery('#authenModal .modal-content').append("<div id='pace-login-container'><style>#pace-login {width: 140px;height: 300px;position: fixed;top: -90px;right: -20px;z-index: 2000;-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);-o-transform: scale(0);transform: scale(0);opacity: 0;-webkit-transition: all 2s linear 0s;-moz-transition: all 2s linear 0s;transition: all 2s linear 0s;}#pace-login.pace-active {-webkit-transform: scale(.25);-moz-transform: scale(.25);-ms-transform: scale(.25);-o-transform: scale(.25);transform: scale(.25);opacity: 1;}#pace-login .pace-activity {width: 140px;height: 140px;border-radius: 70px;background: #29d;position: absolute;top: 0;z-index: 1911;-webkit-animation: pace-bounce 1s infinite;-moz-animation: pace-bounce 1s infinite;-o-animation: pace-bounce 1s infinite;-ms-animation: pace-bounce 1s infinite;animation: pace-bounce 1s infinite;}#pace-login .pace-progress {position: absolute;display: block;left: 50%;bottom: 0;z-index: 1910;margin-left: -30px;width: 60px;height: 75px;background: rgba(20, 20, 20, .1);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);border-radius: 30px / 40px;-webkit-transform: scaleY(.3) !important;-moz-transform: scaleY(.3) !important;-ms-transform: scaleY(.3) !important;-o-transform: scaleY(.3) !important;transform: scaleY(.3) !important;-webkit-animation: pace-compress .5s infinite alternate;-moz-animation: pace-compress .5s infinite alternate;-o-animation: pace-compress .5s infinite alternate;-ms-animation: pace-compress .5s infinite alternate;animation: pace-compress .5s infinite alternate;}@-webkit-keyframes pace-bounce {0% {top: 0;-webkit-animation-timing-function: ease-in;}40% {}50% {top: 140px;height: 140px;-webkit-animation-timing-function: ease-out;}55% {top: 160px;height: 120px;border-radius: 70px / 60px;-webkit-animation-timing-function: ease-in;}65% {top: 120px;height: 140px;border-radius: 70px;-webkit-animation-timing-function: ease-out;}95% {top: 0;-webkit-animation-timing-function: ease-in;}100% {top: 0;-webkit-animation-timing-function: ease-in;}}@-moz-keyframes pace-bounce {0% {top: 0;-moz-animation-timing-function: ease-in;}40% {}50% {top: 140px;height: 140px;-moz-animation-timing-function: ease-out;}55% {top: 160px;height: 120px;border-radius: 70px / 60px;-moz-animation-timing-function: ease-in;}65% {top: 120px;height: 140px;border-radius: 70px;-moz-animation-timing-function: ease-out;}95% {top: 0;-moz-animation-timing-function: ease-in;}100% {top: 0;-moz-animation-timing-function: ease-in;}}@keyframes pace-bounce {0% {top: 0;animation-timing-function: ease-in;}50% {top: 140px;height: 140px;animation-timing-function: ease-out;}55% {top: 160px;height: 120px;border-radius: 70px / 60px;animation-timing-function: ease-in;}65% {top: 120px;height: 140px;border-radius: 70px;animation-timing-function: ease-out;}95% {top: 0;animation-timing-function: ease-in;}100% {top: 0;animation-timing-function: ease-in;}}@-webkit-keyframes pace-compress {0% {bottom: 0;margin-left: -30px;width: 60px;height: 75px;background: rgba(20, 20, 20, .1);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);border-radius: 30px / 40px;-webkit-animation-timing-function: ease-in;}100% {bottom: 30px;margin-left: -10px;width: 20px;height: 5px;background: rgba(20, 20, 20, .3);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .3);border-radius: 20px / 20px;-webkit-animation-timing-function: ease-out;}}@-moz-keyframes pace-compress {0% {bottom: 0;margin-left: -30px;width: 60px;height: 75px;background: rgba(20, 20, 20, .1);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);border-radius: 30px / 40px;-moz-animation-timing-function: ease-in;}100% {bottom: 30px;margin-left: -10px;width: 20px;height: 5px;background: rgba(20, 20, 20, .3);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .3);border-radius: 20px / 20px;-moz-animation-timing-function: ease-out;}}@keyframes pace-compress {0% {bottom: 0;margin-left: -30px;width: 60px;height: 75px;background: rgba(20, 20, 20, .1);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);border-radius: 30px / 40px;animation-timing-function: ease-in;}100% {bottom: 30px;margin-left: -10px;width: 20px;height: 5px;background: rgba(20, 20, 20, .3);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .3);border-radius: 20px / 20px;animation-timing-function: ease-out;}}</style><div id='pace-login' class='pace pace-active'><div class='pace-progress' data-progress='50' data-progress-text='50%' style='-webkit-transform: translate3d(50%, 0px, 0px); -ms-transform: translate3d(50%, 0px, 0px); transform: translate3d(50%, 0px, 0px);'><div class='pace-progress-inner'></div></div><div class='pace-activity'></div></div></div>");
                 jQuery.ajax({
                     url:'/vi/ajax-thanh-vien-dang-ky.html',data:new FormData(jQuery('#frmRegister')[0]),
-                    type:'POST',contentType:false,processData:false,                
+                    type:'POST',contentType:false,processData:false,
                     success:function(response){
                         // var member_id = JSON.parse(response)[0].id;
                         // setCookie('member_id',member_id,1);
                         // jQuery('#btnMemberId').val(member_id);
                         // jQuery('#pace-login-container').remove();
                         // var longta = requestTookLong(requestTimes.unique(),true);
-                        // var longti = window.setInterval(function(){                        
+                        // var longti = window.setInterval(function(){
                         //     var oldCookie = JSON.parse(getCookie('dang-tin-nhanh'));
-                        //     if (oldCookie.length == indexSaved) {console.log('breaking');window.clearInterval(longti);}                        
+                        //     if (oldCookie.length == indexSaved) {console.log('breaking');window.clearInterval(longti);}
                         //     for(i=0;i<oldCookie.length;i++){
                         //         var indexToBeSaved = jQuery('input[name="id[]"][value="'+oldCookie[i]+'"]').attr('data-order');
                         //         jQuery('.posted-item[data-order="'+indexToBeSaved+'"] .fa-pencil').click();
@@ -146,7 +146,7 @@ jQuery(function($){
                 jQuery('#authenModal .modal-content').append("<div id='pace-login-container'><style>#pace-login {width: 140px;height: 300px;position: fixed;top: -90px;right: -20px;z-index: 2000;-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);-o-transform: scale(0);transform: scale(0);opacity: 0;-webkit-transition: all 2s linear 0s;-moz-transition: all 2s linear 0s;transition: all 2s linear 0s;}#pace-login.pace-active {-webkit-transform: scale(.25);-moz-transform: scale(.25);-ms-transform: scale(.25);-o-transform: scale(.25);transform: scale(.25);opacity: 1;}#pace-login .pace-activity {width: 140px;height: 140px;border-radius: 70px;background: #29d;position: absolute;top: 0;z-index: 1911;-webkit-animation: pace-bounce 1s infinite;-moz-animation: pace-bounce 1s infinite;-o-animation: pace-bounce 1s infinite;-ms-animation: pace-bounce 1s infinite;animation: pace-bounce 1s infinite;}#pace-login .pace-progress {position: absolute;display: block;left: 50%;bottom: 0;z-index: 1910;margin-left: -30px;width: 60px;height: 75px;background: rgba(20, 20, 20, .1);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);border-radius: 30px / 40px;-webkit-transform: scaleY(.3) !important;-moz-transform: scaleY(.3) !important;-ms-transform: scaleY(.3) !important;-o-transform: scaleY(.3) !important;transform: scaleY(.3) !important;-webkit-animation: pace-compress .5s infinite alternate;-moz-animation: pace-compress .5s infinite alternate;-o-animation: pace-compress .5s infinite alternate;-ms-animation: pace-compress .5s infinite alternate;animation: pace-compress .5s infinite alternate;}@-webkit-keyframes pace-bounce {0% {top: 0;-webkit-animation-timing-function: ease-in;}40% {}50% {top: 140px;height: 140px;-webkit-animation-timing-function: ease-out;}55% {top: 160px;height: 120px;border-radius: 70px / 60px;-webkit-animation-timing-function: ease-in;}65% {top: 120px;height: 140px;border-radius: 70px;-webkit-animation-timing-function: ease-out;}95% {top: 0;-webkit-animation-timing-function: ease-in;}100% {top: 0;-webkit-animation-timing-function: ease-in;}}@-moz-keyframes pace-bounce {0% {top: 0;-moz-animation-timing-function: ease-in;}40% {}50% {top: 140px;height: 140px;-moz-animation-timing-function: ease-out;}55% {top: 160px;height: 120px;border-radius: 70px / 60px;-moz-animation-timing-function: ease-in;}65% {top: 120px;height: 140px;border-radius: 70px;-moz-animation-timing-function: ease-out;}95% {top: 0;-moz-animation-timing-function: ease-in;}100% {top: 0;-moz-animation-timing-function: ease-in;}}@keyframes pace-bounce {0% {top: 0;animation-timing-function: ease-in;}50% {top: 140px;height: 140px;animation-timing-function: ease-out;}55% {top: 160px;height: 120px;border-radius: 70px / 60px;animation-timing-function: ease-in;}65% {top: 120px;height: 140px;border-radius: 70px;animation-timing-function: ease-out;}95% {top: 0;animation-timing-function: ease-in;}100% {top: 0;animation-timing-function: ease-in;}}@-webkit-keyframes pace-compress {0% {bottom: 0;margin-left: -30px;width: 60px;height: 75px;background: rgba(20, 20, 20, .1);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);border-radius: 30px / 40px;-webkit-animation-timing-function: ease-in;}100% {bottom: 30px;margin-left: -10px;width: 20px;height: 5px;background: rgba(20, 20, 20, .3);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .3);border-radius: 20px / 20px;-webkit-animation-timing-function: ease-out;}}@-moz-keyframes pace-compress {0% {bottom: 0;margin-left: -30px;width: 60px;height: 75px;background: rgba(20, 20, 20, .1);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);border-radius: 30px / 40px;-moz-animation-timing-function: ease-in;}100% {bottom: 30px;margin-left: -10px;width: 20px;height: 5px;background: rgba(20, 20, 20, .3);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .3);border-radius: 20px / 20px;-moz-animation-timing-function: ease-out;}}@keyframes pace-compress {0% {bottom: 0;margin-left: -30px;width: 60px;height: 75px;background: rgba(20, 20, 20, .1);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);border-radius: 30px / 40px;animation-timing-function: ease-in;}100% {bottom: 30px;margin-left: -10px;width: 20px;height: 5px;background: rgba(20, 20, 20, .3);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .3);border-radius: 20px / 20px;animation-timing-function: ease-out;}}</style><div id='pace-login' class='pace pace-active'><div class='pace-progress' data-progress='50' data-progress-text='50%' style='-webkit-transform: translate3d(50%, 0px, 0px); -ms-transform: translate3d(50%, 0px, 0px); transform: translate3d(50%, 0px, 0px);'><div class='pace-progress-inner'></div></div><div class='pace-activity'></div></div></div>");
                 jQuery.ajax({
                     url:'/vi/ajax-thanh-vien-dang-nhap.html',data:new FormData(jQuery('#frmLogin')[0]),
-                    type:'POST',contentType:false,processData:false,                
+                    type:'POST',contentType:false,processData:false,
                     success:function(response){
                         jQuery('#pace-login-container,#pace-login').remove();
                         if (response > 0) {
@@ -155,9 +155,9 @@ jQuery(function($){
                             setCookie('member_id',response,1);
                             var mod = jQuery('#authenModal')[0].dataset.mod;
                             if (mod == 'dang-tin-nhanh'){
-                                var longti = window.setInterval(function(){                        
+                                var longti = window.setInterval(function(){
                                     var oldCookie = JSON.parse(getCookie('dang-tin-nhanh'));
-                                    if (oldCookie.length == indexSaved) {window.clearInterval(longti);}                        
+                                    if (oldCookie.length == indexSaved) {window.clearInterval(longti);}
                                     for(i=0;i<oldCookie.length;i++){
                                         var indexToBeSaved = jQuery('input[name="id[]"][value="'+oldCookie[i]+'"]').attr('data-order');
                                         jQuery('.posted-item[data-order="'+indexToBeSaved+'"] .fa-pencil').click();
@@ -201,7 +201,7 @@ jQuery(function($){
                 jQuery('#authenModal .modal-content').append("<div id='pace-login-container'><style>#pace-login {width: 140px;height: 300px;position: fixed;top: -90px;right: -20px;z-index: 2000;-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);-o-transform: scale(0);transform: scale(0);opacity: 0;-webkit-transition: all 2s linear 0s;-moz-transition: all 2s linear 0s;transition: all 2s linear 0s;}#pace-login.pace-active {-webkit-transform: scale(.25);-moz-transform: scale(.25);-ms-transform: scale(.25);-o-transform: scale(.25);transform: scale(.25);opacity: 1;}#pace-login .pace-activity {width: 140px;height: 140px;border-radius: 70px;background: #29d;position: absolute;top: 0;z-index: 1911;-webkit-animation: pace-bounce 1s infinite;-moz-animation: pace-bounce 1s infinite;-o-animation: pace-bounce 1s infinite;-ms-animation: pace-bounce 1s infinite;animation: pace-bounce 1s infinite;}#pace-login .pace-progress {position: absolute;display: block;left: 50%;bottom: 0;z-index: 1910;margin-left: -30px;width: 60px;height: 75px;background: rgba(20, 20, 20, .1);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);border-radius: 30px / 40px;-webkit-transform: scaleY(.3) !important;-moz-transform: scaleY(.3) !important;-ms-transform: scaleY(.3) !important;-o-transform: scaleY(.3) !important;transform: scaleY(.3) !important;-webkit-animation: pace-compress .5s infinite alternate;-moz-animation: pace-compress .5s infinite alternate;-o-animation: pace-compress .5s infinite alternate;-ms-animation: pace-compress .5s infinite alternate;animation: pace-compress .5s infinite alternate;}@-webkit-keyframes pace-bounce {0% {top: 0;-webkit-animation-timing-function: ease-in;}40% {}50% {top: 140px;height: 140px;-webkit-animation-timing-function: ease-out;}55% {top: 160px;height: 120px;border-radius: 70px / 60px;-webkit-animation-timing-function: ease-in;}65% {top: 120px;height: 140px;border-radius: 70px;-webkit-animation-timing-function: ease-out;}95% {top: 0;-webkit-animation-timing-function: ease-in;}100% {top: 0;-webkit-animation-timing-function: ease-in;}}@-moz-keyframes pace-bounce {0% {top: 0;-moz-animation-timing-function: ease-in;}40% {}50% {top: 140px;height: 140px;-moz-animation-timing-function: ease-out;}55% {top: 160px;height: 120px;border-radius: 70px / 60px;-moz-animation-timing-function: ease-in;}65% {top: 120px;height: 140px;border-radius: 70px;-moz-animation-timing-function: ease-out;}95% {top: 0;-moz-animation-timing-function: ease-in;}100% {top: 0;-moz-animation-timing-function: ease-in;}}@keyframes pace-bounce {0% {top: 0;animation-timing-function: ease-in;}50% {top: 140px;height: 140px;animation-timing-function: ease-out;}55% {top: 160px;height: 120px;border-radius: 70px / 60px;animation-timing-function: ease-in;}65% {top: 120px;height: 140px;border-radius: 70px;animation-timing-function: ease-out;}95% {top: 0;animation-timing-function: ease-in;}100% {top: 0;animation-timing-function: ease-in;}}@-webkit-keyframes pace-compress {0% {bottom: 0;margin-left: -30px;width: 60px;height: 75px;background: rgba(20, 20, 20, .1);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);border-radius: 30px / 40px;-webkit-animation-timing-function: ease-in;}100% {bottom: 30px;margin-left: -10px;width: 20px;height: 5px;background: rgba(20, 20, 20, .3);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .3);border-radius: 20px / 20px;-webkit-animation-timing-function: ease-out;}}@-moz-keyframes pace-compress {0% {bottom: 0;margin-left: -30px;width: 60px;height: 75px;background: rgba(20, 20, 20, .1);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);border-radius: 30px / 40px;-moz-animation-timing-function: ease-in;}100% {bottom: 30px;margin-left: -10px;width: 20px;height: 5px;background: rgba(20, 20, 20, .3);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .3);border-radius: 20px / 20px;-moz-animation-timing-function: ease-out;}}@keyframes pace-compress {0% {bottom: 0;margin-left: -30px;width: 60px;height: 75px;background: rgba(20, 20, 20, .1);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);border-radius: 30px / 40px;animation-timing-function: ease-in;}100% {bottom: 30px;margin-left: -10px;width: 20px;height: 5px;background: rgba(20, 20, 20, .3);box-shadow: 0 0 20px 35px rgba(20, 20, 20, .3);border-radius: 20px / 20px;animation-timing-function: ease-out;}}</style><div id='pace-login' class='pace pace-active'><div class='pace-progress' data-progress='50' data-progress-text='50%' style='-webkit-transform: translate3d(50%, 0px, 0px); -ms-transform: translate3d(50%, 0px, 0px); transform: translate3d(50%, 0px, 0px);'><div class='pace-progress-inner'></div></div><div class='pace-activity'></div></div></div>");
                 jQuery.ajax({
                     url:'/vi/ajax-thanh-vien-quen-mat-khau.html',data:new FormData(jQuery('#frmLostPass')[0]),
-                    type:'POST',contentType:false,processData:false,                
+                    type:'POST',contentType:false,processData:false,
                     success:function(response){
                         jQuery('#pace-login-container').remove();
                         if (response) {bootbox.alert(response); backToLogin();}
@@ -222,7 +222,7 @@ jQuery(function($){
             type: 'post',
             data: { id_product: jQuery('#id_product').val(), type: 1, content: jQuery('#content_contact').val(), subject: jQuery('#title-reply').val(), from: jQuery('#from_id').val(), to: jQuery('#to_id').attr('data-value') },
             success: function (result) {
-                toastr.options = {positionClass: "toast-top-center",onclick: function () { window.open("http://project.hatex.vn/vi/hop-thu.html","_blank"); } };
+                toastr.options = {positionClass: "toast-top-center",onclick: function () { window.open("http://project.hbtex.vn/vi/hop-thu.html","_blank"); } };
                 if (result) toastr.success('Yêu cầu của bạn đã được gửi tới nhà cung cấp, vui lòng chờ và theo dõi thông tin trả lời của người bán tại Hộp thư');
                 jQuery('#contactBuyerModal').modal('hide');
             }

@@ -61,7 +61,7 @@
                             </div>
                         </div>
                         <div style="margin-top: 10px;" class="fb-like"
-                             data-href="https://hatex.vn/chao-ban/may-cua-go-ripsaw-nhieu-luoi-31467.html"
+                             data-href="https://hbtex.vn/chao-ban/may-cua-go-ripsaw-nhieu-luoi-31467.html"
                              data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
 
                         <!-- Thumbnail image end -->
@@ -148,7 +148,7 @@
                                     </ul>
                                 </div><!--
                                 <div class="col-md-4">
-                                    <a target="_blank" href="https://hatex.vn/gian-hang/cong-ty-tnhh-mtv-xnk-trung-thai-2427.html" title="Trung Thai Import Export CO., LTD"><img style="width:150px;" class="img-responsive" src="https://hatex.vn/public/upload/files/member_upload/h2427/files/H%C3%ACnh%20n%E1%BB%81n.jpg" alt="Trung Thai Import Export CO., LTD"></a>
+                                    <a target="_blank" href="https://hbtex.vn/gian-hang/cong-ty-tnhh-mtv-xnk-trung-thai-2427.html" title="Trung Thai Import Export CO., LTD"><img style="width:150px;" class="img-responsive" src="https://hbtex.vn/public/upload/files/member_upload/h2427/files/H%C3%ACnh%20n%E1%BB%81n.jpg" alt="Trung Thai Import Export CO., LTD"></a>
                                 </div>-->
                             </div>
                         </div>
@@ -188,13 +188,13 @@
                             </div>
                             <div id="fb-root" class="hidden">
                                 <div class="fb-like"
-                                     data-href="https://hatex.vn/chao-ban/may-dong-dai-nhua-han-nhiet-dung-pin-jd16-28511.html"
+                                     data-href="https://hbtex.vn/chao-ban/may-dong-dai-nhua-han-nhiet-dung-pin-jd16-28511.html"
                                      data-layout="button_count" data-action="like" data-size="small"
                                      data-show-faces="true" data-share="true"></div>
                             </div>
                             <div id="fb-root">
                                 <div class="fb-comments"
-                                     data-href="https://hatex.vn/chao-ban/may-dong-dai-nhua-han-nhiet-dung-pin-jd16-28511.html"
+                                     data-href="https://hbtex.vn/chao-ban/may-dong-dai-nhua-han-nhiet-dung-pin-jd16-28511.html"
                                      data-numposts="5" data-width="100%"></div>
                             </div>
                         </div>

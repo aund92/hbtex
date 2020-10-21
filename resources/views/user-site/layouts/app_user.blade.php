@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="vi">
 
-<!-- Mirrored from hatex.vn/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Oct 2020 07:35:36 GMT -->
+<!-- Mirrored from hbtex.vn/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Oct 2020 07:35:36 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <title> hbtex.vn: Sàn giao dịch công nghệ và thiết bị Hòa Bình </title>
@@ -12,16 +12,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content=" Sàn giao dịch công nghệ, thiết bị trực tuyến - hatex.vn là sàn giao dịch TMĐT số 1 Việt Nam chuyên hỗ trợ doanh nghiệp: tìm thiết bị, chuyển giao công nghệ, thanh lý máy móc, mua bán dây chuyền công nghệ, tổ chức hội chợ công nghệ, chợ công nghiệp. ">
+    <meta name="description" content=" Sàn giao dịch công nghệ, thiết bị trực tuyến - hbtex.vn là sàn giao dịch TMĐT số 1 Việt Nam chuyên hỗ trợ doanh nghiệp: tìm thiết bị, chuyển giao công nghệ, thanh lý máy móc, mua bán dây chuyền công nghệ, tổ chức hội chợ công nghệ, chợ công nghiệp. ">
     <meta name="keywords" content=" Sàn giao dịch công nghệ;  chợ công nghệ; chuyển giao công nghệ; thanh lý máy móc; dây chuyền công nghệ; hội chợ công nghệ ">
     <meta name="robots" content="INDEX, FOLLOW">
     <meta name="RATING" content="GENERAL">
     <meta property="fb:app_id" content="285025768967343">
     <meta property="og:image" content="index.html">
     <meta property="og:type" content="product">
-    <meta property="og:title" content=" Hatex.vn: Sàn giao dịch công nghệ và thiết bị Hòa Bình ">
-    <meta property="og:description" content=" Sàn giao dịch công nghệ, thiết bị trực tuyến - hatex.vn là sàn giao dịch TMĐT số 1 Việt Nam chuyên hỗ trợ doanh nghiệp: tìm thiết bị, chuyển giao công nghệ, thanh lý máy móc, mua bán dây chuyền công nghệ, tổ chức hội chợ công nghệ, chợ công nghiệp. ">
-    <meta property="og:site_name" content="Sàn giao dịch công nghệ và thiết bị trực tuyến Hatex.vn">
+    <meta property="og:title" content=" hbtex.vn: Sàn giao dịch công nghệ và thiết bị Hòa Bình ">
+    <meta property="og:description" content=" Sàn giao dịch công nghệ, thiết bị trực tuyến - hbtex.vn là sàn giao dịch TMĐT số 1 Việt Nam chuyên hỗ trợ doanh nghiệp: tìm thiết bị, chuyển giao công nghệ, thanh lý máy móc, mua bán dây chuyền công nghệ, tổ chức hội chợ công nghệ, chợ công nghiệp. ">
+    <meta property="og:site_name" content="Sàn giao dịch công nghệ và thiết bị trực tuyến hbtex.vn">
     <meta property="og:url" content="index.html">
     <link rel="publisher" href="https://plus.google.com/+HatexVnVietNam">
     <link rel="canonical" href="index.html">
@@ -51,6 +51,13 @@
     <link rel="stylesheet" href="{{asset('assets/frontend/css/custom.css')}}">
     <link rel="stylesheet" href="{{asset('assets/frontend/css/responsive.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=vietnamese" rel="stylesheet">
+    <style>
+        @media screen and (min-width: 600px) {
+            .searchBox {
+                margin-left: 60px !important;
+            }
+        }
+    </style>
     @yield('styles', false)
 </head>
 <body>
@@ -109,8 +116,8 @@
                                             <li style="padding: 0 9px; margin-top: 10px;"><strong style="color: #ff6a00;">Hỗ trợ chung: </strong>0904.121.468</li>
                                             <li style="padding: 0 9px; margin-top: 10px;"><strong style="color: #ff6a00;">Hỗ trợ mở gian hàng: </strong>0974.206.376</li>
                                             <li style="padding: 0 9px; margin-top: 10px;"><strong style="color: #ff6a00;">Hotline &amp; hỗ trợ quảng cáo: </strong>0934.659.425</li>
-                                            <li style="padding: 0 9px; margin-top: 10px;"><strong style="color: #ff6a00;">Email : </strong>thongtin@hatex.vn</li>
-                                            <li class="title-extenal" style="padding: 9px; margin-top: 10px; background: #fbe1e3;"><strong style="color: #222; font-weight: 600; white-space: normal; font-size: 11px; margin-left: 5px;">Hatex.vn không bán hàng trực tiếp. Quý khách mua hàng vui lòng click vào sản phẩm, xem thông tin và liên hệ với nhà cung cấp</strong></li>
+                                            <li style="padding: 0 9px; margin-top: 10px;"><strong style="color: #ff6a00;">Email : </strong>thongtin@hbtex.vn</li>
+                                            <li class="title-extenal" style="padding: 9px; margin-top: 10px; background: #fbe1e3;"><strong style="color: #222; font-weight: 600; white-space: normal; font-size: 11px; margin-left: 5px;">hbtex.vn không bán hàng trực tiếp. Quý khách mua hàng vui lòng click vào sản phẩm, xem thông tin và liên hệ với nhà cung cấp</strong></li>
                                         </ul>
                                     </div></li>
                             </ul>
@@ -127,12 +134,18 @@
             <div class="container">
                 <div class="row align-items-center no-gutters">
                     <div class="col-lg-3 col-md-12">
-                        <div class="logo mb-all-30">
-                            <a href="{{route('user.home.index')}}"><img src="{{asset('upload/image/logo4.png')}}" alt="Hatex.vn: Sàn giao dịch công nghệ thiết bị trực tuyến"></a>
+                        <div class="logo mb-all-30" style="display: -webkit-inline-box;">
+                            <a href="{{route('user.home.index')}}">
+                                <img src="{{asset('upload/image/logo5.png')}}" alt="hbtex.vn: Sàn giao dịch công nghệ thiết bị trực tuyến">
+
+                            </a>
+                            <p style="color: red;font-weight: bold">SÀN GIAO DỊCH CÔNG NGHỆ VÀ THIẾT BỊ HÒA BÌNH <br><font style="color: #0000ee;font-size: small">HOABINH TECHNOLOGY AND EQUIPMENT EXCHANGE</font></p>
+
                         </div>
+
                     </div>
                     <!-- Categorie Search Box Start Here -->
-                    <div class="col-lg-6 col-md-8 ml-auto mr-auto col-12">
+                    <div class="col-lg-4 col-md-8 col-12 searchBox">
                         <div class="categorie-search-box">
                             <form id="search-form" action="{{route('user.product.index')}}" method="GET">
                                 @csrf
@@ -251,7 +264,7 @@
                             <p>Cập nhật các thông tin mới nhất về thị trường công nghệ</p>
                         </div>
                         <div class="newsletter-box">
-                            <form method="post" data-form="ajax" action="https://hatex.vn/api/add_subscriber">
+                            <form method="post" data-form="ajax" action="https://hbtex.vn/api/add_subscriber">
                                 <input class="subscribe" placeholder="Nhập email của bạn" name="email" id="subscribe" required type="text">
                                 <button type="submit" class="submit">Đăng ký</button>
                             </form>
@@ -270,19 +283,19 @@
 {{--                                <p class="news-name">Cơ quan quản lý: Sở Khoa học và Công nghệ Hải Phòng.</p>--}}
 {{--                                <p class="MsoNormal">Quyết định thành lập: 1025/QĐ-UBND ngày 20/4/2020, nơi cấp: UBND TP. Hải Phòng.</p>--}}
 {{--                                <p class="MsoNormal">Trụ sở: Số 01 Phạm Ngũ Lão - Quận Ngô Quyền - Thành Phố Hải Phòng.</p>--}}
-{{--                                <p class="MsoNormal">Điện thoại: 0225.3757.101 &amp; 0225.3250.289 || Fax: 0225.3757.110 || Email: thongtin@hatex.vn</p>--}}
+{{--                                <p class="MsoNormal">Điện thoại: 0225.3757.101 &amp; 0225.3250.289 || Fax: 0225.3757.110 || Email: thongtin@hbtex.vn</p>--}}
                             </div>
                         </div>
                         <div class="col-md-5 col-sm-5 col-xs-12 right-contact-us">
                             <h4>Kết nối với chúng tôi</h4>
-                            <a target="_blank" href="https://www.facebook.com/hatex.vn/"><i class="fa fa-facebook circle"></i></a>
+                            <a target="_blank" href="https://www.facebook.com/hbtex.vn/"><i class="fa fa-facebook circle"></i></a>
                             <a target="_blank" href="https://plus.google.com/+HatexVnVietNam"><i class="fa fa-google-plus circle"></i></a>
                             <a target="_blank" href="https://www.youtube.com/channel/UCiW5btInzhoX7gMddm1PDLw"><i class="fa fa-youtube-play circle"></i></a>
                             <h4>Đã đăng ký bộ công thương</h4>
-                            <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=451" target="_blank"><img src="{{asset('upload/image/dadangky.png')}}" alt="Hatex.vn: Sàn giao dịch công nghệ thiết bị trực tuyến"></a>
+                            <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=451" target="_blank"><img src="{{asset('upload/image/dadangky.png')}}" alt="hbtex.vn: Sàn giao dịch công nghệ thiết bị trực tuyến"></a>
                         </div>
                     </div>
-                    <p class="copyrights">Copyright @ 2012 - 2020 Hatex.vn - Online Technology - Equipment Transfer and Exchange. All rights reserved.</p>
+                    <p class="copyrights">Copyright @ 2012 - 2020 hbtex.vn - SÀN GIAO DỊCH CÔNG NGHỆ VÀ THIẾT BỊ HÒA BÌNH. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -412,7 +425,7 @@
             contact_success: "Yêu cầu của bạn đã được gửi tới nhà cung cấp, vui lòng chờ và theo dõi thông tin trả lời của người bán tại mục liên hệ",
         };
         var routes = {
-            sale_product_list: "https://hatex.vn/gian-hang//san-pham.html",
+            sale_product_list: "https://hbtex.vn/gian-hang//san-pham.html",
         };
         Array.prototype.clean = function(deleteValue='') {
             for (var i = 0; i < this.length; i++) {
@@ -588,5 +601,5 @@
 </div>
 </body>
 
-<!-- Mirrored from hatex.vn/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Oct 2020 07:37:27 GMT -->
+<!-- Mirrored from hbtex.vn/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Oct 2020 07:37:27 GMT -->
 </html>

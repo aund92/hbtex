@@ -61,13 +61,13 @@
                         </div>
                         <div id="fb-root">
                             <div class="fb-like"
-                                 data-href="https://hatex.vn/su-kien/chuong-trinh-ket-noi-cong-nghe-giao-thuong-truc-tuyen-ve-linh-vuc-cong-nghe-va-thuc-pham-voi-doanh-nghiep-chlb-nga.html"
+                                 data-href="https://hbtex.vn/su-kien/chuong-trinh-ket-noi-cong-nghe-giao-thuong-truc-tuyen-ve-linh-vuc-cong-nghe-va-thuc-pham-voi-doanh-nghiep-chlb-nga.html"
                                  data-layout="button_count" data-action="like" data-size="small" data-show-faces="true"
                                  data-share="true"></div>
                         </div>
                         <div id="fb-root">
                             <div class="fb-comments"
-                                 data-href="https://hatex.vn/su-kien/chuong-trinh-ket-noi-cong-nghe-giao-thuong-truc-tuyen-ve-linh-vuc-cong-nghe-va-thuc-pham-voi-doanh-nghiep-chlb-nga.html"
+                                 data-href="https://hbtex.vn/su-kien/chuong-trinh-ket-noi-cong-nghe-giao-thuong-truc-tuyen-ve-linh-vuc-cong-nghe-va-thuc-pham-voi-doanh-nghiep-chlb-nga.html"
                                  data-numposts="5" data-width="100%"></div>
                         </div>
                     </div>

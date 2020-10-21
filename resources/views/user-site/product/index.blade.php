@@ -7,7 +7,7 @@
             <div class="breadcrumb">
                 <ul class="d-flex align-items-center">
                     <li><a href="{{route('user.home.index')}}">Trang chủ</a></li>
-                    <li class="active"><a href="danh-sach.html">Sản Phẩm</a></li>
+                    <li class="active"><a href="#">Sản Phẩm</a></li>
                 </ul>
             </div>
         </div>

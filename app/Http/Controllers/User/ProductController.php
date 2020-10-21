@@ -70,6 +70,10 @@ class ProductController extends Controller
             $memberTypeArr = $request->get('member_type_arr');
             $products = $products->whereIn('supplier', $memberTypeArr);
         }
+        if ($request->has('keyword')) {
+            $keyword = $request->get('keyword');
+            $products = $products->where('product_name', 'LIKE', '%' . $keyword .'%');
+        }
         $countries = Country::all();
         $brands = Brand::all();
         $supplys = Supply::all();

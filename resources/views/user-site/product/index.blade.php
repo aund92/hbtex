@@ -197,7 +197,7 @@
                                                 </p>
                                                 <p class="description hidden-xs">
                                                     <b>Từ khóa: </b>
-                                                    {{$product->category->category_name}}
+                                                    {{$product->category->category_name??''}}
 
                                                 </p>
                                             </div>

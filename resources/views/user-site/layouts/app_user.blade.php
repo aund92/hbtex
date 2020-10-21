@@ -133,27 +133,26 @@
         <div class="header-middle ptb-15">
             <div class="container">
                 <div class="row align-items-center no-gutters">
-                    <div class="col-lg-3 col-md-12">
+                    <div class="col-lg-5 col-md-12">
                         <div class="logo mb-all-30" style="display: -webkit-inline-box;">
                             <a href="{{route('user.home.index')}}">
                                 <img src="{{asset('upload/image/logo5.png')}}" alt="hbtex.vn: Sàn giao dịch công nghệ thiết bị trực tuyến">
-
                             </a>
-                            <p style="color: red;font-weight: bold">SÀN GIAO DỊCH CÔNG NGHỆ VÀ THIẾT BỊ HÒA BÌNH <br><font style="color: #0000ee;font-size: small">HOABINH TECHNOLOGY AND EQUIPMENT EXCHANGE</font></p>
+                            <p style="color: red;font-weight: bold;font-size: x-large">SÀN GIAO DỊCH CÔNG NGHỆ VÀ THIẾT BỊ HÒA BÌNH <br><font style="color: #0000ee;font-size: small;font-size: large">HOABINH TECHNOLOGY AND EQUIPMENT EXCHANGE</font></p>
 
                         </div>
 
                     </div>
                     <!-- Categorie Search Box Start Here -->
-                    <div class="col-lg-4 col-md-8 col-12 searchBox">
+                    <div class="col-lg-6 col-md-8 col-12 ml-auto">
                         <div class="categorie-search-box">
                             <form id="search-form" action="{{route('user.product.index')}}" method="GET">
                                 @csrf
                                 <input type="hidden" name="type" value="1" class="type">
                                 <input type="hidden" name="route" value="homepage"/>
 
-                                <input id="searchTag" autocomplete="" class="type ui-autocomplete-input" name="keyword" value="" type="text" placeholder="Từ khóa">
-                                <button id="btnSearch"><i class="lnr lnr-magnifier"></i></button>
+                                <input id="searchTag" class="type ui-autocomplete-input" name="keyword" value="" type="text" placeholder="Từ khóa">
+                                <button type="submit"><i class="lnr lnr-magnifier"></i></button>
                             </form>
                         </div>
                     </div>

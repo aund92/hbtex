@@ -18,7 +18,7 @@
                                         </a>
                                         <ul class="ht-dropdown mega-child">
                                             @foreach($category->childCategory as $key2 => $category2)
-                                                <li><a href="{{route('user.product.index', $category2->slug)}}"
+                                                <li><a href="{{route('user.blog.index2', $category2->slug)}}"
                                                        target="_blank">{{$category2->category_name}}</a></li>
                                             @endforeach
                                         </ul>

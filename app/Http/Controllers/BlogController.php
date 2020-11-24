@@ -40,7 +40,7 @@ class BlogController extends Controller
     {
         //
         return view('blog.create', [
-            'theloais' => BlogCategory::get()
+            'theloais' => Category::get()
         ])
             ->with('index', Consts::SIDEBAR_BLOG);
     }
@@ -99,7 +99,7 @@ class BlogController extends Controller
     {
         return view('blog.edit', [
             'item' => Blog::find($id),
-            'theloais' => BlogCategory::get()
+            'theloais' => Category::get()
         ])
             ->with('index', Consts::SIDEBAR_BLOG);
     }

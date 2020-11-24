@@ -53,17 +53,16 @@ class BlogCategoryController extends Controller
         //
         $request->validate([
             'category_name' => 'required|max:50',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-            'description' => 'required',
+
 
         ]);
-        $imagePath = FileUtils::uploadImage($request->image, FileUtils::CATEGORY_PATH);
+//        $imagePath = FileUtils::uploadImage($request->image, FileUtils::CATEGORY_PATH);
 
         $data = [
             'category_name' => $request->get('category_name'),
             'description' => $request->get('description'),
             'is_guide' => is_null($request->get('is_guide')) ? false : true,
-            'image' => $imagePath,
+//            'image' => $imagePath,
             'slug' => SlugService::createSlug(BlogCategory::class, 'slug', $request->get('category_name'))
         ];
 
@@ -116,15 +115,14 @@ class BlogCategoryController extends Controller
             //
             $request->validate([
                 'category_name' => 'required|max:50',
-                'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-                'description' => 'required',
+
             ]);
-            $imagePath = FileUtils::uploadImage($image, FileUtils::CATEGORY_PATH);
+//            $imagePath = FileUtils::uploadImage($image, FileUtils::CATEGORY_PATH);
         } else {
             //
             $request->validate([
                 'category_name' => 'required|max:50',
-                'description' => 'required',
+
             ]);
         }
 
@@ -132,7 +130,7 @@ class BlogCategoryController extends Controller
             'category_name' => $request->get('category_name'),
             'description' => $request->get('description'),
             'is_guide' => is_null($request->get('is_guide')) ? false : true,
-            'image' => $imagePath,
+//            'image' => $imagePath,
             'slug' => SlugService::createSlug(BlogCategory::class, 'slug', $request->get('category_name'))
         ];
         BlogCategory::where('id', $id)

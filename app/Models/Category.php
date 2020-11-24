@@ -31,7 +31,9 @@ class Category extends Model
     public function products() {
         return $this->hasMany('App\Models\Product', 'category_id', 'id');
     }
-
+    public function blogs() {
+        return $this->hasMany('App\Models\Blog', 'category_id', 'id');
+    }
     public function sluggable()
     {
         return [

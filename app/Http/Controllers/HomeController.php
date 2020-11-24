@@ -28,14 +28,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $newOrders = Order::all()->count();
+
         $newUsers = User::where('role', Consts::USER_ROLE)->get()->count();
-        $products = Product::all()->count();
+
         $categories = Category::all();
         return view('home',[
-            'newOrders' => $newOrders,
+
             'newUsers' => $newUsers,
-            'products' => $products,
+
             'categories' => $categories
         ])
             ->with('index', 0);

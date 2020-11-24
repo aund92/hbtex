@@ -22,6 +22,7 @@ Route::middleware(['auth', 'can:isAdmin'])->group(function () {
     Route::resources(['category' => 'CategoryController']);
     Route::resources(['brand' => 'BrandController']);
     Route::resources(['city' => 'CityController']);
+    Route::resources(['dinhduong' => 'DinhDuongController']);
     Route::resources(['district' => 'DistrictController']);
     Route::resources(['ward' => 'WardController']);
     Route::resources(['product' => 'ProductController']);

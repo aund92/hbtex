@@ -4,7 +4,7 @@
 <!-- Mirrored from hbtex.vn/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Oct 2020 07:35:36 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-    <title> hbtex.vn: Sàn giao dịch công nghệ và thiết bị Hòa Bình </title>
+    <title> Dinh Dưỡng Online </title>
 
     <meta charset="utf-8">
     <meta name="google-site-verification" content="6Kp2HpAlLympLYpRSWEIvvVOHtw2vpivqS8BObldmP8" />
@@ -62,8 +62,8 @@
 </head>
 <body>
 <div class="wrapper">
-    <h1 style="display: none;">Sàn giao dịch công nghệ;  chợ công nghệ; chuyển giao công nghệ; thanh lý máy móc; dây chuyền công nghệ; hội chợ công nghệ</h1>
-    <h2 style="display: none;">Sàn giao dịch công nghệ;  chợ công nghệ; chuyển giao công nghệ; thanh lý máy móc; dây chuyền công nghệ; hội chợ công nghệ</h2>
+    <h1 style="display: none;">Dinh Dưỡng Online</h1>
+    <h2 style="display: none;">Dinh Dưỡng Online</h2>
     <div class="html-code grid-of-images" style="display: none;">
         <a class="image-popup-vertical-fit" href="{{asset('upload/images/new-upgrade-banner.jpg')}}" title="">
             <img src="{{asset('upload/images/new-upgrade-banner.jpg')}}" width="75" height="75" />
@@ -136,9 +136,9 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="logo mb-all-30" style="display: -webkit-inline-box;">
                             <a href="{{route('user.home.index')}}">
-                                <img src="{{asset('upload/image/logo5.png')}}" alt="hbtex.vn: Sàn giao dịch công nghệ thiết bị trực tuyến">
+{{--                                <img src="{{asset('upload/image/logo5.png')}}" alt="hbtex.vn: Sàn giao dịch công nghệ thiết bị trực tuyến">--}}
                             </a>
-                            <p style="color: red;font-weight: bold;font-size: x-large">SÀN GIAO DỊCH CÔNG NGHỆ VÀ THIẾT BỊ HÒA BÌNH <br><font style="color: #0000ee;font-size: small;font-size: large">HOABINH TECHNOLOGY AND EQUIPMENT EXCHANGE</font></p>
+                            <p style="color: red;font-weight: bold;font-size: x-large">Dinh Dưỡng Online <br><font style="color: #0000ee;font-size: small;font-size: large"></font></p>
 
                         </div>
 
@@ -188,18 +188,15 @@
                         <nav class="d-none d-lg-block">
                             <ul class="header-bottom-list d-flex">
                                 <li class=""><a href="{{route('user.home.index')}}">Trang chủ</a></li>
-                                <li><a href="{{route('user.product.index')}}" target="_blank">Sản Phẩm</a></li>
+{{--                                <li><a href="{{route('user.product.index')}}" target="_blank">Sản Phẩm</a></li>--}}
 {{--                                <li><a href="tin-tim-mua/danh-sach.html" target="_blank">Tìm mua</a></li>--}}
 {{--                                <li><a href="nha-cung-cap/danh-sach.html" target="_blank">Nhà cung cấp</a></li>--}}
-                                <li><a href="{{route('user.blog.index')}}" target="_blank">Tin công nghệ</a></li>
-                                <li><a href="{{route('user.event.index')}}" target="_blank">Sự kiện</a></li>
-                                <li><a href="{{route('user.contact.index')}}" target="_blank">Liên Hệ</a></li>
+{{--                                <li><a href="{{route('user.blog.index')}}" target="_blank">Tin công nghệ</a></li>--}}
+{{--                                <li><a href="{{route('user.event.index')}}" target="_blank">Sự kiện</a></li>--}}
+{{--                                <li><a href="{{route('user.contact.index')}}" target="_blank">Liên Hệ</a></li>--}}
                             </ul>
                         </nav>
                         <div class="mobile-menu d-block d-lg-none">
-                            <nav>
-                                <ul>
-                                    <li class=""><a href="index.html">Trang chủ</a></li>
                                     <li><a href="{{route('user.product.index')}}">Sản phẩm</a></li>
 {{--                                    <li><a href="tin-tim-mua/danh-sach.html">Tìm mua</a></li>--}}
 {{--                                    <li><a href="nha-cung-cap/danh-sach.html">Nhà cung cấp</a></li>--}}
@@ -225,7 +222,7 @@
                             @if(isset($categories))
                                 @foreach($categories as $key => $category)
                                     <li class="dropdown">
-                                        <a href="{{route('user.product.index', $category->slug)}}" target="_blank">
+                                        <a href="{{route('user.blog.index', $category->slug)}}" target="_blank">
                                         <span>
                                             <img src="{{asset($category->icon)}}" alt="menu-icon">
                                         </span>
@@ -233,7 +230,7 @@
                                         </a>
                                         <ul class="ht-dropdown mega-child">
                                             @foreach($category->childCategory as $key2 => $category2)
-                                                <li><a href="{{route('user.product.index', $category2->slug)}}" target="_blank">{{$category2->category_name}}</a></li>
+                                                <li><a href="{{route('user.blog.index2', $category2->slug)}}" target="_blank">{{$category2->category_name}}</a></li>
                                             @endforeach
                                         </ul>
                                     </li>
@@ -294,7 +291,7 @@
                             <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=451" target="_blank"><img src="{{asset('upload/image/dadangky.png')}}" alt="hbtex.vn: Sàn giao dịch công nghệ thiết bị trực tuyến"></a>
                         </div>
                     </div>
-                    <p class="copyrights">Copyright @ 2012 - 2020 hbtex.vn - SÀN GIAO DỊCH CÔNG NGHỆ VÀ THIẾT BỊ HÒA BÌNH. All rights reserved.</p>
+                    <p class="copyrights">Copyright @ 2012 - 2020 dinhduong online. All rights reserved.</p>
                 </div>
             </div>
         </div>

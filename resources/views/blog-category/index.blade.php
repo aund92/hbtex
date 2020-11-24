@@ -38,9 +38,9 @@
                                 <tr>
                                     <th>#</th>
                                     <th>Tên Thể Loại</th>
-                                    <th>Hình Ảnh</th>
-                                    <th>Slug</th>
-                                    <th>Bài Hướng Dẫn</th>
+{{--                                    <th>Hình Ảnh</th>--}}
+{{--                                    <th>Slug</th>--}}
+{{--                                    <th>Bài Hướng Dẫn</th>--}}
                                     <th></th>
                                 </tr>
                                 </thead>
@@ -51,16 +51,16 @@
                                         <td>
                                             {{ $item->category_name }}
                                         </td>
-                                        <td>
-                                            <img src="{{ asset($item->image) }}"
-                                                 class="img-thumbnail" width="70">
-                                        </td>
+{{--                                        <td>--}}
+{{--                                            <img src="{{ asset($item->image) }}"--}}
+{{--                                                 class="img-thumbnail" width="70">--}}
+{{--                                        </td>--}}
                                         {{--                                        <td style="">{!! $item->short_description !!}  </td>--}}
                                         {{--                                        <td>{{ $item->mo_ta2 }}</td>--}}
-                                        <td>{{$item->slug}}</td>
-                                        <td><input type="checkbox" id="hot" name="is_guide" class="form-control"
-                                                   {{$item->is_guide ? 'checked' : ''}} disabled>
-                                        </td>
+{{--                                        <td>{{$item->slug}}</td>--}}
+{{--                                        <td><input type="checkbox" id="hot" name="is_guide" class="form-control"--}}
+{{--                                                   {{$item->is_guide ? 'checked' : ''}} disabled>--}}
+{{--                                        </td>--}}
                                         <td>
                                             <div class="row">
                                                 <a href="{{ route('blog-category.edit',$item->id)}}"

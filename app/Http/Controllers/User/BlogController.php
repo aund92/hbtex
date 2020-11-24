@@ -30,16 +30,22 @@ class BlogController extends Controller
      */
     public function index(Request $request)
     {
-
+        $blogs = Blog::select('*')
+            ->orderByDesc('created_at')
+            ->get()
+            ->take(15);
         $categories = Category::select('*')
             ->whereNull('parent_id')
             ->orderBy('order')
             ->get()
             ->take(9);
+
+
 //        dd(Blog::orderByDesc('created_at')->paginate(Consts::ITEM_PER_PAGE_USER));
         return view('user-site.blog.index', [
             'categories' => $categories,
-            'blogCategories' => BlogCategory::all()
+            'blogs' => $blogs,
+            'blogCategories' => Category::whereNull('parent_id')->get()
         ]);
     }
 
@@ -58,7 +64,7 @@ class BlogController extends Controller
             ->orderBy('order')
             ->get()
             ->take(9);
-        $blogRalates = Blog::where('category_id', $blog->category_id)->orderByDesc('created_at')->take(5)->get();
+        $blogRalates = Blog::where('category_id', $blog->category_id)->orderByDesc('created_at')->take(2)->get();
 //        dd(Blog::orderByDesc('created_at')->paginate(Consts::ITEM_PER_PAGE_USER));
         return view('user-site.blog.detail', [
             'categories' => $categories,
@@ -76,7 +82,7 @@ class BlogController extends Controller
     public function index2(Request $request)
     {
         $slug = $request->slug;
-        $blog = BlogCategory::where('slug', $slug)->first();
+        $blog = Category::where('slug', $slug)->first();
         $categories = Category::select('*')
             ->whereNull('parent_id')
             ->orderBy('order')

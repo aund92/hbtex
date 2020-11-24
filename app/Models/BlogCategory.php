@@ -24,7 +24,9 @@ class BlogCategory extends Model
     public function blogs() {
         return $this->hasMany('App\Models\Blog', 'category_id', 'id');
     }
-
+    public function dinhduongs() {
+        return $this->hasMany('App\Models\DinhDuong', 'type', 'id');
+    }
     public function sluggable()
     {
         return [

@@ -35,11 +35,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $categoires = Category::select('*')
-            ->whereNull('parent_id')
-            ->orderBy('order')
-            ->get()
-            ->take(9);
+
         // section 1
         $blogs = Blog::select('*')
             ->orderByDesc('created_at')
@@ -54,7 +50,6 @@ class HomeController extends Controller
 
         $products = Product::orderBy('created_at')->get();
         return view('user-site.home.index', [
-            'categories' => $categoires,
             'blogs' => $blogs,
             'events' => $events,
 //            'notifications' => $notifications,

@@ -1,4 +1,4 @@
-@extends('user-site.layouts.app_user')
+@extends('user-site.layouts.app_user2')
 
 @section('content')
     <!-- START SECTION BREADCRUMB -->
